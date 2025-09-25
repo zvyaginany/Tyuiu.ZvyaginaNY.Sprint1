@@ -1,6 +1,6 @@
-﻿using Tyuiu.ZvyaginaNY.Sprint1.Task1.V0.Lib;
+﻿using Tyuiu.ZvyaginaNY.Sprint1.Task0.V16.Lib;
 
-namespace Tyuiu.ZvyaginaNY.Sprint1.Task1.V0
+namespace Tyuiu.ZvyaginaNY.Sprint1.Task0.V16
 {
     class Program
     {
@@ -13,7 +13,7 @@ namespace Tyuiu.ZvyaginaNY.Sprint1.Task1.V0
             Console.WriteLine("* Спринт #1                                                              *");
             Console.WriteLine("* Тема: Базовые навыки работы в C#                                       *");
             Console.WriteLine("* Задание #0                                                             *");
-            Console.WriteLine("* Вариант #0                                                             *");
+            Console.WriteLine("* Вариант #16                                                            *");
             Console.WriteLine("* Выполнила: Звягина Надежда Юрьевна. | ИСПб-25-1                        *");
             Console.WriteLine("**************************************************************************");
             Console.WriteLine("* УСЛОВИЕ:                                                               *");
