@@ -10,7 +10,7 @@ namespace Tyuiu.ZvyaginaNY.Sprint1.Task2.V19
 
             Console.Title = "Спринт #0 | Выполнила: Звягина Н. Ю. | ИСПб-25-1";
             Console.WriteLine("**************************************************************************");
-            Console.WriteLine("* Спринт #2                                                              *");
+            Console.WriteLine("* Спринт #1                                                              *");
             Console.WriteLine("* Тема: Базовые навыки работы в C#                                       *");
             Console.WriteLine("* Задание #2                                                             *");
             Console.WriteLine("* Вариант #19                                                            *");
@@ -26,18 +26,14 @@ namespace Tyuiu.ZvyaginaNY.Sprint1.Task2.V19
 
 
             Console.Write("Введите расстояние в дюймах: ");
-            string? s = Console.ReadLine();
-            int inches = int.Parse(s);
-
-            const double inchesToMeters = 0.0254;
-
-            double meters = inches * inchesToMeters;
+            int s = int.Parse(Console.ReadLine());
+  
 
             Console.WriteLine("**************************************************************************");
             Console.WriteLine("* РЕЗУЛЬТАТ:                                                             *");
             Console.WriteLine("**************************************************************************");
 
-            Console.WriteLine($"Расстояние в метрах: {meters:F3}");
+            Console.WriteLine($"Расстояние в метрах: " +ds.ConvertInchToKm(s));
         }
     }
 
