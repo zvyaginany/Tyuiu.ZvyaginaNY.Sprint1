@@ -9,7 +9,7 @@ namespace Tyuiu.ZvyaginaNY.Sprint1.Task2.V19.Test
         public void TestMethod1()
         {
             DataService ds = new DataService();
-            int x = 2;
+            int x = 1;
             var res = ds.ConvertInchToKm(x);
             Assert.AreEqual(0, 0508, res);
         }
