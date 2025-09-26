@@ -1,6 +1,6 @@
-﻿using Tyuiu.ZvyaginaNY.Sprint1.Tassk2.V19.Lib;
+﻿using Tyuiu.ZvyaginaNY.Sprint1.Task2.V19.Lib;
 
-namespace Tyuiu.ZvyaginaNY.Sprint1.Tassk2.V19.Test
+namespace Tyuiu.ZvyaginaNY.Sprint1.Task2.V19.Test
 {
     [TestClass]
     public sealed class Test1
