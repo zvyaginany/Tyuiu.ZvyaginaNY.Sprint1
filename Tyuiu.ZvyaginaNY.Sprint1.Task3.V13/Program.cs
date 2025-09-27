@@ -7,13 +7,13 @@ namespace Tyuiu.ZvyaginaNY.Sprint1.Task3.V13
     {
         static void Main(string[] args)
         {
-            Console.Title = "Спринт #1 | Выполнила: Звягина Н. Ю. | ПКТб-23-1";
+            Console.Title = "Спринт #1 | Выполнила: Звягина Н. Ю. | ИСПБ-25-1";
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("* Спринт #1                                                               *");
             Console.WriteLine("* Тема: Базовые навыки работы в C#                                        *");
             Console.WriteLine("* Задание #3                                                              *");
             Console.WriteLine("* Вариант #13                                                             *");
-            Console.WriteLine("* Выполнила: Звягина Наталья Юрьевна | ПКТб-23-1                          *");
+            Console.WriteLine("* Выполнила: Звягина Надежда Юрьевна | ИСПБ-25-1                          *");
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("* УСЛОВИЕ:                                                                *");
             Console.WriteLine("* Написать программу, которая позволяет найти произведение цифр          *");
