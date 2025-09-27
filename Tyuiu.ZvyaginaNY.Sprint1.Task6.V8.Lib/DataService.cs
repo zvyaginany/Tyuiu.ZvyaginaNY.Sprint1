@@ -1,9 +1,10 @@
 ﻿using System;
 using System.Text;
+using tyuiu.cources.programming.interfaces.Sprint1;
 
 namespace Tyuiu.ZvyaginaNY.Sprint1.Task6.V8.Lib
 {
-    public class DataService
+    public class DataService: ISprint1Task6V8
     {
         public string MoveFirstLetterToEnd(string text)
         {
