@@ -45,6 +45,11 @@ namespace Tyuiu.ZvyaginaNY.Sprint1.Task6.V8.Lib
             return result.ToString();
         }
 
+        public string MoveLetterToEnd(string value)
+        {
+            throw new NotImplementedException();
+        }
+
         private string TransformWord(string word)
         {
             if (word.Length <= 1)
