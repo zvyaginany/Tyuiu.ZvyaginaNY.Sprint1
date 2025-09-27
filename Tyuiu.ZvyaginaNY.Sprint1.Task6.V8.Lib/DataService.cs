@@ -1,0 +1,58 @@
+﻿using System;
+using System.Text;
+
+namespace Tyuiu.ZvyaginaNY.Sprint1.Task6.V8.Lib
+{
+    public class DataService
+    {
+        public string MoveFirstLetterToEnd(string text)
+        {
+            if (string.IsNullOrWhiteSpace(text))
+            {
+                return string.Empty;
+            }
+
+            StringBuilder result = new StringBuilder();
+            StringBuilder currentWord = new StringBuilder();
+
+            foreach (char c in text)
+            {
+                if (char.IsLetter(c))
+                {
+                    
+                    currentWord.Append(c);
+                }
+                else
+                {
+                    
+                    if (currentWord.Length > 0)
+                    {
+                        result.Append(TransformWord(currentWord.ToString()));
+                        currentWord.Clear();
+                    }
+                    
+                    result.Append(c);
+                }
+            }
+
+            
+            if (currentWord.Length > 0)
+            {
+                result.Append(TransformWord(currentWord.ToString()));
+            }
+
+            return result.ToString();
+        }
+
+        private string TransformWord(string word)
+        {
+            if (word.Length <= 1)
+            {
+                return word;
+            }
+
+            
+            return word.Substring(1) + word[0];
+        }
+    }
+}
